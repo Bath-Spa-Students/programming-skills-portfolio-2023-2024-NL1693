@@ -1,7 +1,7 @@
-#Print the Python Version
+#Printing the Python Version
 
-#Import the sys module
+#Importing the sys module
 import sys
 
-#Print Version using sys.version
+#Printing Version using sys.version
 print("Python version:", sys.version)
