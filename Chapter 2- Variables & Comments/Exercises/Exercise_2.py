@@ -1,4 +1,4 @@
-# Printing a Quote and it's Author
+# Printing a Quote and its Author
 
 # Defining the Quote
 Quote = "All that we are is the result of what we have thought."
