@@ -3,7 +3,7 @@
 # Defining the Quote
 Quote = "All that we are is the result of what we have thought."
 
-# Defining its Author
+# Defining the Author
 Author = "Buddha"
 
 # Printing the Author and their Quote   # Using + to Ensure No Spacing between the Quote and "" Marks
