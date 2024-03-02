@@ -4,6 +4,8 @@ Exercises with a tick mark :ballot_box_with_check: represent exercises that must
 
 Once you have completed your solution you should make sure you commit and push your solutions to your remote repository on GitHub. You can commit and push as many changes to your solutions as you wish, only those pushed before the chapter deadlines will be marked for the Programming Skills Portfolio.  
 
+&nbsp;
+
 ## Exercise 1: Print Strings :ballot_box_with_check:
 
 Write a Python program to print the following string in a specific format.
@@ -15,16 +17,25 @@ Twinkle, twinkle, little star,
 Twinkle, twinkle, little star, 
 	How I wonder what you are
 
+&nbsp;
+
 ## Exercise 2: Print the Version of Python :ballot_box_with_check:
 
 Write a Python program to get the Python version you are using.
+
+&nbsp;
 
 ## Exercise 3: Print Date and Time :ballot_box_with_check:
 
 Write a Python program to display the current date and time.
 
+&nbsp;
+
 ## Exercise 4: Strings Concatenation :ballot_box_with_check:
+
 Write three strings in different variables and print the output as one string.
+
+&nbsp;
 
 ## Exercise 5: Compute area of Circle :ballot_box_with_check:
 
