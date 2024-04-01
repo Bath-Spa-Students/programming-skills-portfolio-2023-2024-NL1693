@@ -1,7 +1,7 @@
 # Demonstrating Whitespace Striping on Variable
 
 # Defining Name with Whitespace Characters
-Name = "\n\v Aman Malik \r\t"
+Name = "\r\v Aman Malik \n\t"
 
 # Printing with Whitespace Characters
 print(Name)
