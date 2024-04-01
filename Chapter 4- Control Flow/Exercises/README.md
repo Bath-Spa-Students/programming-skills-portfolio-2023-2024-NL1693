@@ -35,7 +35,7 @@ Choose a color for an alien as you did in Exercise 4-1, and write an if-else cha
 
 ## Exercise 3: Alien Colors #3 :ballot_box_with_check:
 
-Turn your if-else chain from Exercise 5-4 into an if-elifelse chain.
+Turn your if-else chain from Exercise 4-2 into an if-elifelse chain.
 
 •	 If the alien is green, print a message that the player earned 5 points.
 
