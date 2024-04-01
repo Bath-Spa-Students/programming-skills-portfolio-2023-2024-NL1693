@@ -22,7 +22,7 @@ Imagine an alien was just shot down in a game. Create a variable called alien_co
 
 ## Exercise 2: Alien Colors #2 :ballot_box_with_check:
 
-Choose a color for an alien as you did in Exercise 5-3, and write an if-else chain.
+Choose a color for an alien as you did in Exercise 4-1, and write an if-else chain.
 
 •If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
 
