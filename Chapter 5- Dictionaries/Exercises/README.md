@@ -47,13 +47,7 @@ Make a dictionary containing three major rivers and the country each river runs 
 
 ## Exercise 5: Pets :ballot_box_with_check:
 
-Make several dictionaries, where each dictionary represents a different pet. In each dictionary, include the kind of animal and the
-
-owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and asyou do, print everything you know about each pet
-
-
+Make several dictionaries, where each dictionary represents a different pet. In each dictionary, include the kind of animal and the owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and as you do, print everything you know about each pet.
 
 &nbsp;
 &nbsp;
-
-
