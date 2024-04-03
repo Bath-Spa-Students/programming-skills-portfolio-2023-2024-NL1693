@@ -1,4 +1,4 @@
-# make_shirt Function(Parameter, Parameter)
+# make_shirt Function(Parameter="Default Value", Parameter="Default Value")
 def make_shirt(size="Large", message="I Love Python"):
     print(f'Size of Shirt is {size} & Printed Message is "{message}".')
 
@@ -9,4 +9,4 @@ make_shirt()
 make_shirt("Medium")
 
 # Call Function with Both Arguments
-make_shirt("Extra-Large", "Eat Sleep Code Repeat")
+make_shirt(message="Eat Sleep Code Repeat", size="Extra-Large")
