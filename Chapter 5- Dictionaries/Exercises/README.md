@@ -9,9 +9,7 @@ Once you have completed your solution you should make sure you commit and push y
 
 ## Exercise 1: Person :ballot_box_with_check:
 
-Use a dictionary to store information about a person you know.Store their first name, last name, age, and the city in which they live. You
-
-should have keys such as first_name, last_name, age, and city. Print each piece of information stored in your dictionary.
+Use a dictionary to store information about a person you know.Store their first name, last name, age, and the city in which they live. You should have keys such as first_name, last_name, age, and city. Print each piece of information stored in your dictionary.
 
 &nbsp;
 &nbsp;
@@ -59,9 +57,7 @@ Make a dictionary containing three major rivers and the country each river runs 
 
 Make several dictionaries, where each dictionary represents a different pet. In each dictionary, include the kind of animal and the
 
-owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and asyou do, print everything you know about 
-
-each pet
+owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and asyou do, print everything you know about each pet
 
 
 
