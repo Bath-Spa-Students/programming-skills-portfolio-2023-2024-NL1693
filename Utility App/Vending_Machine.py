@@ -1,4 +1,4 @@
-# setting items in the dictionary
+# Dictionary to Store Items
 Items = {
     'Snacks': {
         1: {'Item': 'Doritos', 'Price': 3.00},
@@ -16,14 +16,19 @@ Items = {
     }
 }
 
+# Welcome Customer
 print("Welcome!")
 print("\nItems Available:")
 
+# Print Category Name
 for category, category_items in Items.items():
     print(f"\n{category.capitalize()}:")
-    for item_number, item_details in category_items.items():
-        print(f"Item {item_number}: {item_details['Item'].capitalize()} - Price: {item_details['Price']} AED")
 
+    # Print Item Code, Name, & Price
+    for item_number, item_details in category_items.items():
+        print(f"Item {item_number} | {item_details['Item'].capitalize()} - Price: {item_details['Price']} AED")
+
+# Input User Cash
 while True:
     try:
         Cash = float(input("\nPlease Insert Cash: "))
@@ -31,6 +36,7 @@ while True:
     except ValueError:
         print("\nError! Please Re-Enter.")
 
+# Input User's Selected Items
 Sel_Items = []
 while True:
     try:
@@ -45,6 +51,7 @@ while True:
     except ValueError:
         print("Invalid Item Code. Please Re-Enter.")
 
+# Calculate Total & Print Dispensing Message
 Total = 0
 for Sel_Item_Num in Sel_Items:
     for category, category_items in Items.items():
@@ -54,6 +61,7 @@ for Sel_Item_Num in Sel_Items:
             print(f"\nSelected Item | {Sel_Item.capitalize()} | Price: {Price} AED.\nYour Item is being Dispensed...")
             Total += Price
 
+# Show Total
 if Cash >= Total:
     Change = Cash - Total
     print(f"\nTotal: {Total} AED")
