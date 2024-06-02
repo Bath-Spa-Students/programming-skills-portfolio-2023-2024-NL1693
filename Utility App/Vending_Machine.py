@@ -76,7 +76,7 @@ while True:
         Animate_Loading("Processing Cash ")
         break
     except ValueError:
-        print("Error! Please Re-Enter.")
+        print("Error! Please Re-Enter.\n")
         time.sleep(0.25)
 
 # Input & Show User's Selected Items
@@ -112,8 +112,6 @@ for Sel_Item_Num in Sel_Items:
     print(f"{Sel_Item} | Price: {Price} AED.")
     Total += Price
     time.sleep(0.5)
-print('\nDispensing Item(s)...')
-Animate_PBar("Dispensing items")
 
 # Show Total & Change
 print(f'\n- - - - - - - - - - - - - - - - - - - -\n')
@@ -121,6 +119,15 @@ print(f"Total: {Total} AED")
 if Cash >= Total:
     Change = Cash - Total
     print(f"Change: {Change} AED")
+    print('\nDispensing Item(s)...')
+    Animate_PBar("Dispensing items")
 else:
-    print(f"Apologies, Your Cash is Insufficient")
+    print(f"\nApologies, Your Cash is Insufficient\nReturning {Cash} AED")
 print(f'\n- - - - - - - - - - - - - - - - - - - - -\n')
+
+ThankYou = '.▀█▀.█▄█.█▀█.█▄.█.█▄▀　█▄█.█▀█.█─█\n─.█.─█▀█.█▀█.█.▀█.█▀▄　─█.─█▄█.█▄█\n'
+for char in ThankYou:
+    sys.stdout.write(char)
+    sys.stdout.flush()
+    time.sleep(0.02)
+time.sleep(1)
