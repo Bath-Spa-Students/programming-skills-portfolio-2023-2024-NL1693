@@ -187,7 +187,7 @@ def Show_Total(total, cash):
     if cash >= total:
         change = cash - total
         print(f"Change: {change} AED")
-        print('\nDispensing Item(s)...')
+        Animate_Progress_Bar("Dispensing Change")
         Animate_Progress_Bar("Dispensing Items")
         print(f'\n════════════════════════════════════════\n')
     else:
