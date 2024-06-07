@@ -3,7 +3,7 @@
 # Import Modules
 import time, sys
 
-# Contants
+# Constants
 Animation_Sleep = 0.2
 Banner_Sleep = 0.02
 Progress_Bar_Sleep = 0.4
