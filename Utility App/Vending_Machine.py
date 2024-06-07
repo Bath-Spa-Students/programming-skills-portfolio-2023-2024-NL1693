@@ -42,7 +42,13 @@ def Animate_Progress_Bar(msg, dur=4):
 
 # Print Welcome Banner with Animation
 def Print_Welcome_Banner():
-    welcome = '\n█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█\n█ ░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░ █\n█ ░░║║║╠─║─║─║║║║║╠─░░ █\n█ ░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░ █\n█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█\n'
+    welcome = '''
+    █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+    █ ░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░ █
+    █ ░░║║║╠─║─║─║║║║║╠─░░ █
+    █ ░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░ █
+    █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+    '''
     for char in welcome:
         sys.stdout.write(char)
         sys.stdout.flush()
@@ -119,7 +125,10 @@ def Print_Selected_Items(sel_items, item_map):
 
 # Print Thank You Banner with Animation
 def Print_Thank_You_Banner():
-    thank_you = '.▀█▀.█▄█.█▀█.█▄.█.█▄▀　█▄█.█▀█.█─█\n─.█.─█▀█.█▀█.█.▀█.█▀▄　─█.─█▄█.█▄█\n'
+    thank_you = '''
+    .▀█▀.█▄█.█▀█.█▄.█.█▄▀　█▄█.█▀█.█─█
+    ─.█.─█▀█.█▀█.█.▀█.█▀▄　─█.─█▄█.█▄█
+    '''
     for char in thank_you:
         sys.stdout.write(char)
         sys.stdout.flush()
